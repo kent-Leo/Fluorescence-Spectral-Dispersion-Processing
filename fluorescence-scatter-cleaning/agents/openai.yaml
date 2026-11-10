@@ -1,0 +1,4 @@
+interface:
+  display_name: "荧光光谱连续去杂峰"
+  short_description: "保留原始光谱，识别已确认散射并连续补点，单独标记主峰重叠区估计"
+  default_prompt: "使用 $fluorescence-scatter-cleaning 处理这份荧光光谱：去除已确认散射峰，连续补点且不留空白，保留原始数据并标明所有估计值。"
